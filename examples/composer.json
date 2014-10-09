@@ -1,0 +1,7 @@
+{
+    "require": {
+        "yuyat/piper": "dev-master",
+        "nikic/iter": "~1.1"
+    },
+    "minimum-stability": "dev"
+}

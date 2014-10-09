@@ -1,0 +1,99 @@
+{
+    "_readme": [
+        "This file locks the dependencies of your project to a known state",
+        "Read more about it at http://getcomposer.org/doc/01-basic-usage.md#composer-lock-the-lock-file",
+        "This file is @generated automatically"
+    ],
+    "hash": "c36b7c540211bc223791c53c2a5a9b59",
+    "packages": [
+        {
+            "name": "nikic/iter",
+            "version": "v1.1.0",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/nikic/iter.git",
+                "reference": "5eecb6f724705f0cf38f3cb6204573e1886f0c42"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/nikic/iter/zipball/5eecb6f724705f0cf38f3cb6204573e1886f0c42",
+                "reference": "5eecb6f724705f0cf38f3cb6204573e1886f0c42",
+                "shasum": ""
+            },
+            "require": {
+                "php": ">=5.5.0"
+            },
+            "type": "library",
+            "autoload": {
+                "files": [
+                    "src/bootstrap.php"
+                ]
+            },
+            "notification-url": "http://packagist.org/downloads/",
+            "license": [
+                "BSD-3-Clause"
+            ],
+            "authors": [
+                {
+                    "name": "Nikita Popov",
+                    "email": "nikic@php.net"
+                }
+            ],
+            "description": "Iteration primitives using generators",
+            "keywords": [
+                "functional",
+                "generator",
+                "iterator"
+            ],
+            "time": "2014-03-27 15:21:11"
+        },
+        {
+            "name": "yuyat/piper",
+            "version": "dev-master",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/yuya-takeyama/piper.git",
+                "reference": "575713d699007ec26c414860e35fb394057b9ab7"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/yuya-takeyama/piper/zipball/575713d699007ec26c414860e35fb394057b9ab7",
+                "reference": "575713d699007ec26c414860e35fb394057b9ab7",
+                "shasum": ""
+            },
+            "require": {
+                "php": ">= 5.3"
+            },
+            "require-dev": {
+                "phpunit/phpunit": "*"
+            },
+            "type": "library",
+            "autoload": {
+                "psr-4": {
+                    "yuyat\\": "src"
+                }
+            },
+            "notification-url": "http://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "Yuya Takeyama",
+                    "email": "sign.of.the.wolf.pentagram@gmail.com"
+                }
+            ],
+            "description": "Helps functional programming in OO style.",
+            "time": "2014-10-09 06:21:45"
+        }
+    ],
+    "packages-dev": [],
+    "aliases": [],
+    "minimum-stability": "dev",
+    "stability-flags": {
+        "yuyat/piper": 20
+    },
+    "prefer-stable": false,
+    "platform": [],
+    "platform-dev": []
+}

@@ -15,7 +15,7 @@ use yuyat\Piper;
 use function iter\fn\operator;
 use function iter\range;
 
-$result = Piper::from(range(1, 10));
+$result = Piper::from(range(1, 10))
     ->pipe('iter\map', [operator('*', 2)])
     ->pipe('iter\reduce', [operator('+')])
     ->get();
@@ -42,9 +42,9 @@ class IterPiper extends Piper
         return new static(map($fn, $this->get()));
     }
 
-    public function reduce($fn, $initial)
+    public function reduce($fn, $initial = null)
     {
-        return new static(reduce($fn, $initial, $this->get()));
+        return new static(reduce($fn, $this->get(), $initial));
     }
 }
 
