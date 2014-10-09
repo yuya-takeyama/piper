@@ -41,7 +41,7 @@ class PiperTest extends \PHPUnit_Framework_TestCase
     public function test_with_closure_and_multiple_argumetns()
     {
         $result = Piper::from(3)
-            ->pipe(function ($x, $y, $z, $input) { return ($x + $y + $z) * $input; }, [1, 2, 3])
+            ->pipe(function ($x, $y, $z, $input) { return ($x + $y + $z) * $input; }, array(1, 2, 3))
             ->get();
 
         $this->assertSame(18, $result);
