@@ -2,7 +2,7 @@
 
 Helps functional programming in OO style.
 
-It is recommended to combine this library with other functional libraries like (iter)[https://github.com/nikic/iter].
+It is recommended to combine this library with other functional libraries like [iter](https://github.com/nikic/iter).
 
 ## Usage
 
@@ -48,7 +48,7 @@ class IterPiper extends Piper
     }
 }
 
-$result = IterPiper::from(range(1, 10));
+$result = IterPiper::from(range(1, 10))
     ->map(operator('*', 2))
     ->reduce(operator('+'), 0)
     ->get();
