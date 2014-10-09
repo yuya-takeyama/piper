@@ -1,4 +1,4 @@
-# yuyat\piper
+# yuyat\Piper
 
 Helps functional programming in OO style.
 
