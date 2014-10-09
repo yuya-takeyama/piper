@@ -1,0 +1,20 @@
+{
+    "name": "yuyat/piper",
+    "description": "Helps functional programming in OO style.",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Yuya Takeyama",
+            "email": "sign.of.the.wolf.pentagram@gmail.com"
+        }
+    ],
+    "require": {
+        "php": ">= 5.3"
+    },
+    "require-dev": {
+        "phpunit/phpunit": "*"
+    },
+    "autoload": {
+        "psr-4": { "yuyat\\": "src" }
+    }
+}
